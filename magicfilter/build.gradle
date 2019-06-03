@@ -16,15 +16,6 @@ android {
     }
 }
 
-//android.ndk {
-//    moduleName = "MagicBeautify"
-//    cppFlags.add("-DANDROID_NDK")
-//    cppFlags.add("-D_DEBUG")
-//    ldLibs.add("log")
-//    ldLibs.add("jnigraphics")
-//    stl = "stlport_static"
-//}
-
 android.buildTypes {
     release {
         minifyEnabled = false
